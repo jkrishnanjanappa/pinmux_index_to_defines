@@ -40,7 +40,7 @@ for line in `seq $total_lines` ; do
 	i=0
 	for iter in `cat input | head -$line | tail -1` ; do
 		if [ $i -eq 0 ] ; then
-			pin_num=$(echo $iter | sed "s:gpio\([0-9]_[0-9]\).*:\1:g")
+			pin_num=$(echo $iter | sed "s:gpio\([0-9]*_[0-9]\).*:\1:g")
 			echo -e "#define\tPIN_P${pin_num}\t\t\t${pin_offset}"
 		fi
 		echo $iter  | tr [a-z] [A-Z] | sed "s:\t:\n:g" | sed "/^$/d" | sed "s: *$::g" | sed "s:^ *:#define\tPIN_P${pin_num}__:g"  |  sed  "s:GPIO.*:GPIO:g" | sed "s:$:\t\tPINMUX_PIN(PIN_P${pin_num}, $i):g"
