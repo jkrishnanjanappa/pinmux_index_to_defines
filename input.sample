@@ -1,0 +1,80 @@
+gpio0_0	 seuart_rx_a	 uart0_rx_a	 lpi2s_sdi_a	 spi0_ss0_a	 lpi2c_scl_a	 ana_s0	 ble_dbg0
+gpio0_1	 seuart_tx_a	 uart0_tx_a	 lpi2s_sdo_a	 spi0_ss1_a	 lpi2c_sda_a	 ana_s1	 ble_dbg1
+gpio0_2	 jtag1_tdi	 ospi0_ss0_a	 uart0_cts_a	 lpi2s_sclk_a	 spi0_ss2_a	 ana_s2	 ble_dbg2
+gpio0_3	 jtag1_tdo	 ospi0_ss1_a	 uart0_rts_a	 lpi2s_ws_a	 spi1_ss0_a	 ana_s3	 ble_dbg3
+gpio0_4	 jtag1_trst	 uart1_rx_a	 spi1_ss1_a	 i2c0_sda_a	 fault0_a	 ana_s4	 ble_dbg4
+gpio0_5	 jtag1_tck	 uart1_tx_a	 spi1_ss2_a	 i2c0_scl_a	 fault1_a	 ana_s5	 ble_dbg5
+gpio0_6	 jtag1_tms	 uart1_cts_a	 i2c1_sda_a	 fault2_a	 i3c_sda_a	 ana_s6	 ble_dbg6
+gpio0_7	 uart1_rts_a	 i2c1_scl_a	 fault3_a	 lpcam_vsync_b	 i3c_scl_a	 ana_s7	 ble_dbg7
+gpio1_0	 ospi0_d0_a	 uart2_rx_a	 lppdm_d0_a	 lpi2s_sdi_b	 spi0_miso_a	 lpcam_d0_a	 sd_d0_a
+gpio1_1	 ospi0_d1_a	 uart2_tx_a	 lppdm_c0_a	 lpi2s_sdo_b	 spi0_mosi_a	 lpcam_d1_a	 sd_d1_a
+gpio1_2	 ospi0_d2_a	 lppdm_d1_a	 lpi2s_sclk_b	 spi0_sclk_a	 lpcam_d2_a	 sd_d2_a	 cx_mws_sf0
+gpio1_3	 ospi0_d3_a	 lppdm_c1_a	 lpi2s_ws_b	 lpspi_miso_a	 lpcam_d3_a	 sd_d3_a	 cx_mws_sf1
+gpio1_4	 ospi0_d4_a	 lppdm_c2_a	 i2s0_sdi_a	 lpspi_mosi_a	 lpcam_d4_a	 sd_d4_a	 cdc_pclk_a
+gpio1_5	 ospi0_d5_a	 lppdm_d2_a	 i2s0_sdo_a	 lpspi_sclk_a	 lpcam_d5_a	 sd_d5_a	 cdc_de_a
+gpio1_6	 ospi0_d6_a	 lppdm_c3_a	 i2s0_sclk_a	 lpcam_d6_a	 sd_d6_a	 cdc_hsync_a	 cx_mws_sf2
+gpio1_7	 ospi0_d7_a	 lppdm_d3_a	 i2s0_ws_a	 lpcam_d7_a	 sd_d7_a	 cdc_vsync_a	 cx_mws_sf3
+gpio2_0	 ospi0_ss0_b	 lpuart_rx_a	 i2s1_sdi_a	 lpspi_ss_a	 ut0_t0_a	 ana_s8	 cx_mws_sf4
+gpio2_1	 ospi0_ss1_b	 lpuart_tx_a	 i2s1_sdo_a	 lpi2c_scl_b	 ut0_t1_a	 ana_s9	 cx_mws_pat0
+gpio2_2	 lpuart_rts_a	 i2s1_sclk_slv_a	 lpi2c_sda_b	 ut1_t0_a	 ana_s10	 cx_mws_pat1	
+gpio2_3	 lpuart_cts_a	 i2s1_ws_slv_a	 ut1_t1_a	 sd_rst_a	 can0_rxd_a	 ana_s11	 cx_mws_sync
+gpio2_4	 uart3_rx_a	 i2s0_sdi_b	 i2c0_scl_b	 ut2_t0_a	 can0_txd_a	 ana_s12	 cx_mws_tx
+gpio2_5	 uart3_tx_a	 i2s0_sdo_b	 i2c0_sda_b	 ut2_t1_a	 can0_stby_a	 ana_s13	 cx_mws_rx
+gpio2_6	 uart4_rx_a	 i2s0_sclk_b	 i2c1_sda_b	 ut3_t0_a	 i3c_sda_b	 ana_s14	 cx_ble_tx
+gpio2_7	 uart4_tx_a	 i2s0_ws_b	 i2c1_scl_b	 ut3_t1_a	 i3c_scl_b	 ana_s15	 cx_ble_rx
+gpio3_0	 ospi0_sclkn_a	 uart5_rx_a	 lppdm_c0_b	 i2s1_sdi_b	 spi2_miso_a	 cdc_hsync_b	 cx_ble_inp
+gpio3_1	 ospi0_rxds_a	 uart5_tx_a	 lppdm_d0_b	 i2s1_sdo_b	 spi2_mosi_a	 cdc_vsync_b	 cx_ble_pti0
+gpio3_2	 ospi0_sclk_a	 uart3_rx_b	 lppdm_c1_b	 i2s1_sclk_slv_b	 spi2_sclk_a	 cdc_pclk_b	 cx_ble_pti1
+gpio3_3	 jtag0_traceclk	 uart3_tx_b	 lppdm_d1_b	 i2s1_ws_slv_b	 spi2_ss0_a	 cdc_de_b	 cx_ble_pti2
+gpio3_4	 jtag0_tdata0	 lppdm_c2_b	 spi1_miso_a	 lpcam_vsync_a	 sd_cmd_a	 cmp0_out_a	 cx_ble_pti3
+gpio3_5	 jtag0_tdata1	 lppdm_d2_b	 spi1_mosi_a	 lpcam_hsync_a	 sd_clk_a	 cmp1_out_a	 cx_ble_sync
+gpio3_6	 jtag0_tdata2	 uart4_rx_b	 lppdm_c3_b	 spi1_sclk_a	 lpcam_pclk_a	 ext_rts_a	 cx_wlan_tx
+gpio3_7	 jtag0_tdata3	 uart4_tx_b	 lppdm_d3_b	 lpcam_xvclk_a	 sd_rst_b	 ext_cts_a	 cx_wlan_rx
+gpio4_0	 ospi0_rxds_b	 uart0_rx_b	 spi2_ss1_a	 lpcam_hsync_b	 sd_cmd_b	 can1_rxd_a	 ext_rx_a
+gpio4_1	 ospi0_sclkn_b	 uart0_tx_b	 spi2_ss2_a	 lpcam_pclk_b	 sd_clk_b	 can1_txd_a	 ext_tx_a
+gpio4_2	 hfxo_out_a	 ospi0_sclk_b	 uart4_de_a	 lpcam_xvclk_b	 can1_stby_a	 ext_trace_a	
+gpio4_3	 jtag0_nsrst	 cs_mws_id0					
+gpio4_4	 jtag0_tck	 fault0_b	 cs_mws_id1				
+gpio4_5	 jtag0_tms	 fault1_b	 cs_mws_id2				
+gpio4_6	 jtag0_tdi	 fault2_b	 cmp0_out_b	 cs_mws_id3			
+gpio4_7	 jtag0_tdo	 fault3_b	 cmp1_out_b	 cs_mws_id4			
+gpio5_0	 ospi0_d0_b	 uart1_rx_b	 spi0_miso_b	 cdc_d0_a	 can0_rxd_b	 debug_port0	 ble_dbg8
+gpio5_1	 ospi0_d1_b	 uart1_tx_b	 spi0_mosi_b	 cdc_d1_a	 can0_txd_b	 debug_port1	 ble_dbg9
+gpio5_2	 hfxo_out_b	 ospi0_d2_b	 uart2_rx_b	 spi0_sclk_b	 cdc_d2_a	 debug_port2	 ble_dbg10
+gpio5_3	 ospi0_d3_b	 uart2_tx_b	 spi0_ss0_b	 cdc_d3_a	 debug_port3	 ble_dbg11	
+gpio5_4	 ospi0_d4_b	 uart3_cts_a	 lppdm_c0_c	 spi0_ss1_b	 cdc_d4_a	 debug_port4	 ble_dbg12
+gpio5_5	 ospi0_d5_b	 uart3_rts_a	 lppdm_c1_c	 spi0_ss2_b	 cdc_d5_a	 debug_port5	 ble_dbg13
+gpio5_6	 ospi0_d6_b	 uart1_cts_b	 lppdm_d0_c	 lpspi_miso_b	 cdc_d6_a	 debug_port6	 ble_dbg14
+gpio5_7	 ospi0_d7_b	 uart1_rts_b	 lppdm_d1_c	 lpspi_mosi_b	 cdc_d7_a	 debug_port7	 ble_dbg15
+gpio6_0	 ospi0_d0_c	 uart4_de_b	 lpspi_ss_b	 ut0_t0_b	 sd_d0_b	 cdc_d8_a	 ble_dbg16
+gpio6_1	 ospi0_d1_c	 uart5_de_a	 spi1_miso_b	 ut0_t1_b	 sd_d1_b	 cdc_d9_a	 ble_dbg17
+gpio6_2	 ospi0_d2_c	 uart2_cts_a	 spi1_mosi_b	 ut1_t0_b	 sd_d2_b	 cdc_d10_a	 ble_dbg18
+gpio6_3	 ospi0_d3_c	 uart2_rts_a	 spi1_sclk_b	 ut1_t1_b	 sd_d3_b	 cdc_d11_a	 ble_dbg19
+gpio6_4	 ospi0_d4_c	 uart2_cts_b	 spi1_ss0_b	 ut2_t0_b	 sd_d4_b	 cdc_d12_a	 ble_dbg20
+gpio6_5	 ospi0_d5_c	 uart2_rts_b	 spi1_ss1_b	 ut2_t1_b	 sd_d5_b	 cdc_d13_a	 ble_dbg21
+gpio6_6	 ospi0_d6_c	 uart0_cts_b	 spi1_ss2_b	 ut3_t0_b	 sd_d6_b	 cdc_d14_a	 ble_dbg22
+gpio6_7	 ospi0_d7_c	 uart0_rts_b	 spi2_ss2_c	 ut3_t1_b	 sd_d7_b	 cdc_d15_a	 ble_dbg23
+gpio7_0	 ospi0_sclk_c	 lpuart_rx_b	 spi2_miso_b	 i2c0_sda_c	 lpcam_d0_b	 cdc_d16_a	 ble_dbg24
+gpio7_1	 ospi0_sclkn_c	 lpuart_tx_b	 spi2_mosi_b	 i2c0_scl_c	 lpcam_d1_b	 cdc_d17_a	 ble_dbg25
+gpio7_2	 ospi0_ss0_c	 lpuart_cts_b	 spi2_sclk_b	 i2c1_sda_c	 lpcam_d2_b	 cdc_d18_a	 ble_dbg26
+gpio7_3	 ospi0_ss1_c	 lpuart_rts_b	 spi2_ss0_b	 i2c1_scl_c	 lpcam_d3_b	 cdc_d19_a	 ble_dbg27
+gpio7_4	 uart3_cts_b	 spi2_ss1_b	 lpi2c_scl_c	 lpcam_d4_b	 cdc_d20_a	 ble_dbg28	
+gpio7_5	 uart3_rts_b	 spi2_ss2_b	 lpi2c_sda_c	 lpcam_d5_b	 cdc_d21_a	 ble_dbg29	
+gpio7_6	 ospi0_rxds_c	 uart5_rx_b	 spi0_miso_c	 lpcam_d6_b	 cdc_d22_a	 ble_dbg30	
+gpio7_7	 uart5_tx_b	 spi0_mosi_c	 lpcam_d7_b	 cdc_d23_a	 can0_stby_b	 ble_dbg31	
+gpio8_0	 uart0_rx_c	 i2s0_sdi_c	 spi0_sclk_c	 ut0_t0_c	 sd_cmd_c	 cmp0_out_c	
+gpio8_1	 uart0_tx_c	 i2s0_sdo_c	 spi0_ss0_c	 ut0_t1_c	 sd_clk_c	 cmp1_out_c	
+gpio8_2	 seuart_rx_b	 uart1_rx_c	 i2s0_sclk_c	 spi0_ss1_c	 ut1_t0_c	 sd_rst_c	 can0_rxd_c
+gpio8_3	 seuart_tx_b	 uart1_tx_c	 i2s0_ws_c	 spi0_ss2_c	 ut1_t1_c	 can0_txd_c	 ext_rts_b
+gpio8_4	 uart2_rx_c	 i2s1_sdi_c	 spi1_miso_c	 ut2_t0_c	 lpcam_vsync_c	 can0_stby_c	 ext_cts_b
+gpio8_5	 uart2_tx_c	 i2s1_sdo_c	 spi1_mosi_c	 ut2_t1_c	 lpcam_hsync_c	 can1_rxd_b	 ext_trace_b
+gpio8_6	 uart3_rx_c	 i2s1_sclk_slv_c	 spi1_sclk_c	 ut3_t0_c	 lpcam_pclk_c	 can1_txd_b	 ext_rx_b
+gpio8_7	 uart3_tx_c	 i2s1_ws_slv_c	 spi1_ss0_c	 ut3_t1_c	 lpcam_xvclk_c	 can1_stby_b	 ext_tx_b
+gpio9_0	 seuart_rx_c	 lpuart_rx_c	 lpi2s_sdi_c	 spi1_ss1_c	 fault0_c	 lpcam_d0_c	 sd_d0_c
+gpio9_1	 seuart_tx_c	 lpuart_tx_c	 lpi2s_sdo_c	 spi1_ss2_c	 fault1_c	 lpcam_d1_c	 sd_d1_c
+gpio9_2	 lpuart_rts_c	 lpi2s_sclk_c	 spi2_miso_c	 fault2_c	 lpcam_d2_c	 sd_d2_c	 i3c_scl_c
+gpio9_3	 lpuart_cts_c	 lpi2s_ws_c	 spi2_mosi_c	 fault3_c	 lpcam_d3_c	 sd_d3_c	 i3c_sda_c
+gpio9_4	 uart4_rx_c	 lppdm_c2_c	 spi2_sclk_c	 lpcam_d4_c	 sd_d4_c	 can1_rxd_c	
+gpio9_5	 uart4_tx_c	 lppdm_d2_c	 spi2_ss0_c	 lpcam_d5_c	 sd_d5_c	 can1_txd_c	
+gpio9_6	 uart5_rx_c	 lppdm_c3_c	 spi2_ss1_c	 lpcam_d6_c	 sd_d6_c	 can1_stby_c	
+gpio9_7	 uart5_tx_c	 lppdm_d3_c	 lpspi_ss_c	 lpcam_d7_c	 sd_d7_c		
