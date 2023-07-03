@@ -1,6 +1,6 @@
 # pinmux_index_to_defines
 Convert rows of pinmux index into pinmux defines that can be used in Zephyr
-and Linux
+and Linux.
 
 Steps to convert pinmux indes into defines.
 1. Copy the pinmux index rows from the PinMux spreadsheet into a file
