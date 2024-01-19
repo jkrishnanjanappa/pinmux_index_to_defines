@@ -31,7 +31,6 @@ The output looks like below:
 #define PIN_P0_1__ANA_S1                PINMUX_PIN(PIN_P0_1, 6)
 #define PIN_P0_1__BLE_DBG1              PINMUX_PIN(PIN_P0_1, 7)
 "
-
 total_lines=$(cat input | wc -l)
 line=1
 pin_offset=0
